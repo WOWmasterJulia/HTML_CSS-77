@@ -76,17 +76,10 @@ body {
 .contact-nav a {
     color: var(--primary-text-color);
 }
-.site-nav :hover,
-.contact-nav :hover {
-    color: var(--accent-color);
-}
-.site-nav :focus,
-.contact-nav :focus {
-    color: var(--accent-color-focus);
-}
-.site-nav .nav-link-current {
-    color: var(--accent-color);
-}
+
+
+/* ПЕРЕДЕЛКИ */
+
 .nav-link,
 .nav-link-current {
     text-decoration: none;
@@ -95,6 +88,29 @@ body {
     font-weight: 500;
     line-height: 1.5;
 }
+
+.site-nav .nav-link-current {
+    color: var(--accent-color);
+}
+/* .site-nav :hover,
+.contact-nav :hover  */
+
+.nav-link-current:hover,
+.nav-link:hover {
+    color: var(--accent-color);
+}
+
+/* .site-nav :focus,
+.contact-nav :focus 
+. {
+    color: var(--accent-color-focus);
+} */
+
+.nav-link-current:focus, .nav-link:focus {
+    color: var(--accent-color-focus);
+}
+
+
 .contact-nav-link {
     text-decoration: none;
     color: var(--primary-text-color);
@@ -102,6 +118,9 @@ body {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+.contact-nav-link:hover, .contact-nav-link:focus {
+    color: var(--accent-color);
 }
 
 /* Главный экран HERO */
