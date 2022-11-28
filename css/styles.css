@@ -20,7 +20,6 @@ body {
     font-family: var(--primary-fonts-family);
     background-color: var(--primary-bg-color);
     color: var(--primary-text-color);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
 }
@@ -32,7 +31,7 @@ body {
 /* Заголовки Главной */
 .section-title {
     color: var(--title-text-color);
-    font-weight: 600;
+    font-weight: 500;
     font-size: 36px;
     line-height: 1.1;
     text-align: center;
@@ -40,7 +39,7 @@ body {
 }
 .section-title-item,.section-title-team {
     color: var(--title-text-color);
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -93,7 +92,7 @@ body {
     text-decoration: none;
     color: var(--title-text-color);
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 1.5;
 }
 .contact-nav-link {
@@ -111,7 +110,7 @@ body {
 }
 .hero-title {
     color: var(--text-white-color);
-    font-weight: 600;
+    font-weight: 500;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -124,7 +123,7 @@ body {
     cursor: pointer;
     border: 0;
     font-family: inherit;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     display: flex;
@@ -165,7 +164,7 @@ body {
     border: 1px solid #E7E9FC;
     border-radius: 4px;
     font-family: inherit;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     text-align: center;
@@ -182,7 +181,7 @@ body {
 } */
 .portfolio-title {
     color: var(--title-text-color);
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
