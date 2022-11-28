@@ -76,12 +76,12 @@ body {
 .contact-nav a {
     color: var(--primary-text-color);
 }
-.site-nav :hover,
-.contact-nav :hover {
+.site-nav:hover,
+.contact-nav:hover {
     color: var(--accent-color);
 }
-.site-nav :focus,
-.contact-nav :focus {
+.site-nav:focus,
+.contact-nav:focus {
     color: var(--accent-color-focus);
 }
 .site-nav .nav-link-current {
